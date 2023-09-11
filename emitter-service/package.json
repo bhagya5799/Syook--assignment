@@ -1,0 +1,21 @@
+{
+  "name": "emitter-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-emitter": "nodemon index.js",
+    "start-listener": "nodemon listener.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
